@@ -1,4 +1,4 @@
-cd /usr/local/src/
+cd /usr/local/src/</p>
 git clone https://github.com/cooliobr/peervpn
 cd peervpn
 sh peer_ssl_build.sh
