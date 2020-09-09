@@ -1,8 +1,8 @@
 cd /usr/local/src/<br>
-git clone https://github.com/cooliobr/peervpn
-cd peervpn
-sh peer_ssl_build.sh
-cp peervpn.service /etc/systemd/system/
-systemctl start peervpn.service
-service peervpn start
+git clone https://github.com/cooliobr/peervpn<br>
+cd peervpn<br>
+sh peer_ssl_build.sh<br>
+cp peervpn.service /etc/systemd/system/<br>
+systemctl start peervpn.service<br>
+service peervpn start<br>
 
