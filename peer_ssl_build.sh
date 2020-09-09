@@ -24,7 +24,7 @@ then
 	:
 else
 	tar -xzf ${libressl_archive}
-	cd ${libressl_version} && ./configure && make && cd ..
+	cd ${libressl_version} && ./configure && make -j4 && cd ..
 fi
 
 cc -O2 -I${libressl_version}/include peervpn.c -o peervpn ${libressl_version}/crypto/.libs/libcrypto.a && echo success!
